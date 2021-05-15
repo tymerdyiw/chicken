@@ -1,0 +1,11 @@
+index.html
+eggDetail.html 	 	1-2商品详情.psd
+
+adoptHen.html  	 	1-3认养母鸡.psd
+
+
+
+videos.html		3-6视频.psd
+batchDelivery.html 	1-4分批配送1.psd
+myAdopt.html		3-4我的认养.psd
+order.html		3-1所有订单.psd

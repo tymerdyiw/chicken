@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="chinamobo.com">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="Expires" content="-1">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Pragma" content="no-cache">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/ui-base.css">
+	<link rel="stylesheet" href="../css/ui-box.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<script src="../js/jquery-2.1.1.min.js"></script> 
+	<script src="../js/fastclick.js"></script> 
+	<script src="../js/TouchSlide.1.0.js"></script>
+	<script src="../js/template-web.js"></script>  
+	<title>金岭山</title> 
+</head>
+<body> 
+	<header class="headbar tx-c">
+		<div class="back pabsolute"></div>
+		分批配送
+	</header>
+
+	<div class="batch-div1 ub bg-fff">
+		<div class="batch-div1-l paddinglr5 ub-f1">
+			<img src="../img/egg-imgs.png" alt="">
+		</div>
+		<div class="batch-div1-r paddinglr5 ub-f1 ub ub-ver">
+			<div class="ub-f1 fs20 on">￥2.50 <span class=" fs15"> 1-99枚</span></div>
+			<div class="ub-f1 fs20 off">￥2.40 <span class="fs15"> 100-499枚</span></div>
+			<div class="ub-f1 fs20 off">￥2.20 <span class="fs15"> ≥500枚</span></div>
+		</div>
+	</div> 
+ 
+ 
+	<div class="batch-div2 batch-tab detail5 bg-fff margint8 border-t"> 
+		<div id="batch-tab" class="tabBox">
+			<div class="hd">
+				<ul class="ub">
+					<li class="ub-f1">一次性配送</li>
+					<li class="ub-f1">按周分批配送</li>
+					<li class="ub-f1">按月分批配送</li>
+				</ul>
+			</div>
+			<div class="bd">
+				<ul>
+					<li>
+						<div class="detail detail2 ub paddinglr8 margint8 fs14">
+							<div class="ub-f3 ub ub-ver"> 
+								<div>
+									<div class="fl lineh25">配送数量：</div>
+									<div id="quantity" class="quantity-div buy-quantity">
+										<div class="minus">-</div>
+										<input type="number">
+										<div class="plus">+</div>
+									</div>
+								</div>
+								<div class="c-999">直接购买10枚，可享受每枚2.5元，合计：25.00元</div>
+							</div>
+						</div>  
+					</li>  
+				</ul>
+				<ul class="paddingt13" style="display: none">
+					<ul class="clearfix">
+						<li class="ub paddinglr8 tx-c week-type fs14">
+							 <div class="ub-f1 on">周一</div>
+							 <div class="ub-f1">周二</div>
+							 <div class="ub-f1">周三</div>
+							 <div class="ub-f1">周四</div>
+							 <div class="ub-f1">周五</div>
+							 <div class="ub-f1">周六</div>
+							 <div class="ub-f1">周日</div>
+						</li>  
+					</ul>
+					<div class="paddinglr8 margintb8 ub clearfix">
+						<div class="fs15 lineh30">每月03日配送数：</div>
+						<ul class="square-ul month-type ub-f1 fs14">
+							<li class="on">10</li>
+							<li>20</li>
+							<li>30</li>
+							<li>40</li>
+							<li>50</li> 
+							<li>60</li>
+						</ul>
+					</div>
+					<div class="paddinglr8 margint8 ub clearfix">
+						<div class="fs15 lineh30">连续配送：</div>
+						<ul class="square-ul month-type2 ub-f1 fs14">
+							<li class="on">8周</li>
+							<li>12周</li>
+							<li>16周</li>
+							<li>20周</li> 
+						</ul>
+					</div>
+					<div class="paddinglr8 paddingb8 fs12 c-999 choose-info">
+						每周三配送30枚，配送20周，共600枚。<br/>
+						每枚2.2元，共1320元。
+					</div>
+				</ul>
+				<ul class="paddingt13" style="display: none">
+					<li>
+						<div class="square-ul month-type3 paddinglr8">
+							<div class="on">1</div>
+							<div>2</div>
+							<div>3</div>
+							<div>4</div>
+							<div>5</div>
+							<div>6</div>
+							<div>7</div>
+							<div>8</div>
+							<div>9</div>
+							<div>10</div>
+							<div>11</div>
+							<div>12</div>
+							<div>13</div>
+							<div>14</div>
+							<div>15</div>
+							<div>16</div>
+							<div>17</div>
+							<div>18</div>
+							<div>19</div>
+							<div>20</div>
+							<div>21</div>
+							<div>22</div>
+							<div>23</div>
+							<div>24</div>
+							<div>25</div>
+							<div>26</div>
+							<div>27</div>
+							<div>28</div>
+							<div>29</div>
+							<div>30</div>
+							<div>31</div>
+						</div>
+						<div class="paddinglr8 margintb8 ub clearfix">
+							<div class="fs15 lineh30">每月03日配送数：</div>
+							<ul class="square-ul month-type ub-f1 fs14">
+								<li class="on">10</li>
+								<li>10</li>
+								<li>20</li>
+								<li>30</li>
+								<li>40</li> 
+								<li>50</li>
+							</ul>
+						</div>
+						<div class="paddinglr8 margint8 ub clearfix">
+							<div class="fs15 lineh30">连续配送：</div>
+							<ul class="square-ul month-type2 ub-f1 fs14">
+								<li class="on">3个月</li>
+								<li>6个月</li>
+								<li>9个月</li>
+								<li>一年</li> 
+							</ul>
+						</div>
+						<div class="paddinglr8 paddingb8 fs12 c-999 choose-info">
+							每周三配送30枚，配送20周，共600枚。<br/>
+							每枚2.2元，共1320元。
+						</div>
+					</li> 
+				</ul>
+			</div>
+		</div> 
+	</div>
+	
+	<div class="batch-div3 bg-fff border-t">
+		<div class="tit fs14 border-b-gray paddinglr8">
+			<span class="fl">选择第一次配送收货时间：</span>
+			<span class="fr date-show">展开</span>
+		</div> 
+		<div>
+			<ul class="square-ul month-type4 month-type fs14 tc"> 
+				 <li>六月</li>
+				 <li class="on">1</li>
+				 <li>2</li>
+				 <li>3</li>
+				 <li>4</li>
+				 <li>5</li>
+				 <li>6</li>
+				 <li>7</li>
+				 <li>8</li>
+				 <li>9</li>
+				 <li>10</li>
+				 <li>11</li>
+				 <li>12</li>
+				 <li>13</li>
+				 <li>14</li>
+				 <li>15</li>
+				 <li>16</li>
+				 <li>17</li>
+				 <li>18</li>
+				 <li>19</li>
+				 <li>20</li>
+				 <li>21</li>
+				 <li>22</li>
+				 <li>23</li>
+				 <li>24</li>
+				 <li>25</li>
+				 <li>26</li>
+				 <li>27</li>
+				 <li>28</li>
+				 <li>29</li>
+				 <li>30</li> 
+				 <li class="disable">七月</li> 
+				 <li class="disable">1</li>
+				 <li class="disable">2</li>
+				 <li class="disable">3</li> 
+			</ul>
+		</div>
+	</div>
+	<!-- 底部cart -->
+	<div class="pfixed bottom-cart border-t-gray">
+		<ul> 
+			 <li class="bottom-price fl fs15 ub c-7a7a7a ub-ac h48"> 
+			 	<div>
+			 		总计：￥<span class="c-orange">164</span>
+			 	</div>
+			 </li>
+			 
+			 <li class="fr go-buy-btn fs15">
+			 	立即下单
+			 </li> 
+		</ul>
+	</div>
+
+
+</body> 
+<script src="../js/chicken.js"></script> 
+</html> 
