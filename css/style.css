@@ -656,3 +656,44 @@
   background: #4CBDAC;
   color: #fff;
 }
+.order-tab .order-tit li {
+  height: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.5rem;
+}
+.order-tab .order-tit .on {
+  color: #4abdac;
+  border-bottom: 2px solid #4CBDAC;
+}
+.order-tab .order-all > .order-list:not(:first-child) {
+  display: none;
+}
+.order-tab .order-info1 {
+  line-height: 3.2rem;
+}
+.order-tab .order-info2 {
+  padding: 1.4rem 1rem;
+}
+.order-tab .order-info2 .order-pro-img {
+  margin-right: 1rem;
+  width: 6rem;
+  border-radius: 10px;
+}
+.order-tab .order-info2 .order-pro-img img {
+  width: 100%;
+}
+.order-tab .order-info2 .order-info2-txt {
+  padding: 0.5rem 0;
+  line-height: 2.7rem;
+}
+.order-tab .order-info3 time {
+  line-height: 4.5rem;
+}
+.order-tab .order-info3 .pay-btn {
+  padding: 0 1rem;
+  line-height: 2.7rem;
+  margin-top: 0;
+}
+.order-tab .order-info3 .order-info3-txt {
+  line-height: 3.2rem;
+}

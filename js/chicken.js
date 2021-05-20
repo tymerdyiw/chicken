@@ -104,3 +104,8 @@ $('body').on('click','.date-show',function(){
 	}
 	$('.month-type4 li:gt(6)').slideToggle().css('display','inline-block') 
 });
+
+$('body').on('click','.batch-top-tab div',function(){
+	$(this).addClass('on').removeClass('off')
+		.siblings().removeClass('on').addClass('off');
+});

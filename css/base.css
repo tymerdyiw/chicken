@@ -36,12 +36,18 @@ body{background: #F5F5F5;color:#555;margin-bottom: 5rem;}
 .paddinglr20{padding-left:2rem;padding-right:2rem}
 .paddintb8{padding-top:0.8rem;padding-bottom:0.8rem}
 .paddingb8{padding-bottom:0.8rem;}
+.padding14{padding-bottom: 1.4rem;}
+.pl15{padding-left: 1.5rem;}
+
+
 .margintb8{margin-bottom:0.9rem;margin-top:0.9rem;} 
-.margint8{margint-top:0.9rem;} 
+.margint8{margin-top:0.8rem;} 
 .marginb8{margin-bottom: 0.8rem } 
 .margintb8{margin-top:0.8rem;margin-bottom:0.8rem;} 
 .marginlr20{margin-left:1rem;margin-right:1rem;}
-.pl15{padding-left: 1.5rem;}
+.marginr20{margin-right:1rem;}
+
+
 
 /* 边框*/
 .border-t{border-top:1px solid #4CBDAC;} 
