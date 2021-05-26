@@ -146,7 +146,7 @@
   border-radius: 6px;
 }
 .index-info2 input::-webkit-input-placeholder {
-  color: #cccccc;
+  color: #ccc;
 }
 .index-info3 .index-info3-ul li {
   width: 50%;
@@ -391,7 +391,7 @@
 .detail .deatil-tit {
   line-height: 4rem;
   color: #333;
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #ddd;
 }
 .detail .detail3-con {
   line-height: 1.9rem;
@@ -517,7 +517,7 @@
 .batch-div1 .batch-div1-r .on {
   background: #F7B736;
   color: #fff;
-  border: 1px solid #f7b736;
+  border: 1px solid #F7B736;
 }
 .batch-div1 .batch-div1-r .off {
   background: #fff;
@@ -540,7 +540,7 @@
   color: #Fff;
 }
 .batch-tab .tabBox .hd ul {
-  border-bottom: 2px solid #4abdac;
+  border-bottom: 2px solid #4ABDAC;
 }
 .bottom-price {
   padding-left: 1rem;
@@ -627,7 +627,7 @@
 }
 .month-type4 .disable {
   color: #bababa;
-  border: 1px solid #f4f4f4;
+  border: 1px solid #F4F4F4;
 }
 .month-type4 li:nth-child(n+8) {
   display: none;
@@ -639,7 +639,7 @@
   height: 2.4rem;
   padding: 0 1rem;
   margin-left: 1rem;
-  color: #f7b736;
+  color: #F7B736;
 }
 .myAdopt-batch-div1 .batch-div1-r > div {
   height: 2rem;
@@ -697,3 +697,72 @@
 .order-tab .order-info3 .order-info3-txt {
   line-height: 3.2rem;
 }
+.person-page-head .person-l {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 14px;
+}
+.person-page-head .person-l img {
+  width: 100%;
+}
+.person2 .line43 {
+  line-height: 4.3rem;
+  height: 4.3rem;
+}
+.person2 li {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.person2 li > a {
+  padding-left: 1.8rem;
+  background-position: left center;
+}
+.person2 li > a > div:last-child {
+  background: url(../img/arrow_right.png) no-repeat right center / 0.6rem auto;
+  padding-right: 0.6rem;
+}
+.person2 li:first-child > a {
+  background-image: url(../img/icon_dingdan.png);
+  background-size: 1rem auto;
+}
+.person2 li:nth-child(2) > a {
+  background-image: url(../img/icon_car.png);
+  background-size: 1rem auto;
+}
+.person2 li:nth-child(3) > a {
+  background-image: url(../img/icon_ji_green.png);
+  background-size: 1rem auto;
+}
+.person2 li:nth-child(4) > a {
+  background-image: url(../img/icon_quan.png);
+  background-size: 1rem auto;
+}
+.person2 li:nth-child(5) > a {
+  background-image: url(../img/icon_vidio.png);
+  background-size: 1rem auto;
+}
+.person2 li:nth-child(6) > a {
+  background-image: url(../img/icon_ad.png);
+  background-size: 1rem auto;
+}
+.person2 li:nth-child(7) > a {
+  background-image: url(../img/icon_log.png);
+  background-size: 1rem auto;
+}
+.person2 .person2-order-info > div {
+  margin: 1.4rem 2rem 1rem;
+}
+.person2 .person2-order-info img {
+  height: 1.7rem;
+}
+.person2 .person2-order-info .pabsolute {
+  top: -0.7rem;
+  right: -0.2rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  background: #f7b733;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

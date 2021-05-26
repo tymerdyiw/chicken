@@ -13,7 +13,7 @@ body{background: #F5F5F5;color:#555;margin-bottom: 5rem;}
 .fl{float: left}
 .fr{float: right}
 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
-.clearfix{*+height:1%;}
+.clearfix{height:1%;}
 .tc{text-align: center;}
 /* 字号 */
 .fs11{font-size:1.1rem}
@@ -60,6 +60,7 @@ body{background: #F5F5F5;color:#555;margin-bottom: 5rem;}
 .lineh40{line-height:4rem;}
 .lineh25{line-height:2.5rem;}
 .lineh30{line-height:3rem;}
+.lineh20{line-height:2rem;}
 .h48{height: 4.8rem;}
 /* 字体颜色*/
 .c-7a7a7a{color:#7a7a7a}
@@ -69,6 +70,7 @@ body{background: #F5F5F5;color:#555;margin-bottom: 5rem;}
 .c-777{color:#777;}
 .c-333{color:#333;}
 .c-555{color:#555;}
+.c-fff{color:#fff;}
 .blue-icon{width: 3.5rem;height: 3.5rem;background-color:#4CBDAC;border-radius:4px;margin:0 auto;background-repeat:no-repeat;background-position:center center;}
 .index-title{text-align: center;font: 1.6rem/4rem bold;color:#333;border-bottom:1px solid #DDDDDD }
 .btn-orange1{display:block;height: 2.7rem;color:#fff;border:0px;background:#F7B736;border-radius:6px;margin-top: 1.5rem;}

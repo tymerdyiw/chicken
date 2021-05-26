@@ -61,6 +61,19 @@ body {
 .fr {
   float: right; }
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.clearfix {
+  height: 1%; }
+
+.tc {
+  text-align: center; }
+
 /* 字号 */
 .fs11 {
   font-size: 1.1rem; }
@@ -103,22 +116,49 @@ body {
 
 /* 边距 */
 .paddinglr8 {
-  padding: 0 1rem; }
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.paddingt13 {
+  padding-top: 1.3rem; }
 
 .paddinglr20 {
-  padding: 0 2rem; }
+  padding-left: 2rem;
+  padding-right: 2rem; }
 
-.margintb8 {
-  margin: 0.9rem 0; }
+.paddintb8 {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem; }
 
-.margint8 {
-  margin: 0.9rem 0 0; }
+.paddingb8 {
+  padding-bottom: 0.8rem; }
 
-.marginlr20 {
-  margin: 0 1rem; }
+.padding14 {
+  padding-bottom: 1.4rem; }
 
 .pl15 {
   padding-left: 1.5rem; }
+
+.margintb8 {
+  margin-bottom: 0.9rem;
+  margin-top: 0.9rem; }
+
+.margint8 {
+  margin-top: 0.8rem; }
+
+.marginb8 {
+  margin-bottom: 0.8rem; }
+
+.margintb8 {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem; }
+
+.marginlr20 {
+  margin-left: 1rem;
+  margin-right: 1rem; }
+
+.marginr20 {
+  margin-right: 1rem; }
 
 /* 边框*/
 .border-t {
@@ -130,12 +170,24 @@ body {
 .border-r-gray {
   border-right: 1px solid #dddddd; }
 
+.border-b-gray {
+  border-bottom: 1px solid #dddddd; }
+
 /* 行高 */
 .lineh40 {
   line-height: 4rem; }
 
 .lineh25 {
   line-height: 2.5rem; }
+
+.lineh30 {
+  line-height: 3rem; }
+
+.lineh20 {
+  line-height: 2rem; }
+
+.h48 {
+  height: 4.8rem; }
 
 /* 字体颜色*/
 .c-7a7a7a {
@@ -158,6 +210,9 @@ body {
 
 .c-555 {
   color: #555; }
+
+.c-fff {
+  color: #fff; }
 
 .blue-icon {
   width: 3.5rem;
