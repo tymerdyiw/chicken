@@ -146,7 +146,7 @@
   border-radius: 6px;
 }
 .index-info2 input::-webkit-input-placeholder {
-  color: #ccc;
+  color: #cccccc;
 }
 .index-info3 .index-info3-ul li {
   width: 50%;
@@ -391,7 +391,7 @@
 .detail .deatil-tit {
   line-height: 4rem;
   color: #333;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #dddddd;
 }
 .detail .detail3-con {
   line-height: 1.9rem;
@@ -517,7 +517,7 @@
 .batch-div1 .batch-div1-r .on {
   background: #F7B736;
   color: #fff;
-  border: 1px solid #F7B736;
+  border: 1px solid #f7b736;
 }
 .batch-div1 .batch-div1-r .off {
   background: #fff;
@@ -540,7 +540,7 @@
   color: #Fff;
 }
 .batch-tab .tabBox .hd ul {
-  border-bottom: 2px solid #4ABDAC;
+  border-bottom: 2px solid #4abdac;
 }
 .bottom-price {
   padding-left: 1rem;
@@ -627,7 +627,7 @@
 }
 .month-type4 .disable {
   color: #bababa;
-  border: 1px solid #F4F4F4;
+  border: 1px solid #f4f4f4;
 }
 .month-type4 li:nth-child(n+8) {
   display: none;
@@ -639,7 +639,7 @@
   height: 2.4rem;
   padding: 0 1rem;
   margin-left: 1rem;
-  color: #F7B736;
+  color: #f7b736;
 }
 .myAdopt-batch-div1 .batch-div1-r > div {
   height: 2rem;
@@ -697,13 +697,31 @@
 .order-tab .order-info3 .order-info3-txt {
   line-height: 3.2rem;
 }
+.person-page-head {
+  background: url(../img/minezhe.png) no-repeat center center / 100% 100%;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+}
 .person-page-head .person-l {
   width: 6rem;
   height: 6rem;
   border-radius: 14px;
+  margin: 0 0.5rem;
 }
 .person-page-head .person-l img {
   width: 100%;
+}
+.person-page-head .person-c-t {
+  height: 3.4rem;
+  line-height: 1.7rem;
+}
+.person-page-head .person-r {
+  line-height: 1.7rem;
+}
+.person-page-head .person-r .btn-orange1 {
+  line-height: 2.7rem;
+  margin-top: 0;
+  width: 6rem;
 }
 .person2 .line43 {
   line-height: 4.3rem;
@@ -765,4 +783,3 @@
   text-align: center;
   color: #fff;
 }
-/*# sourceMappingURL=style.css.map */
