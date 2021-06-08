@@ -37,17 +37,17 @@ $('.back').click(function() {
 
 
 // 数量加1
-$('.plus').click(function() {
+$('body').on('click','.plus',function() {
 	var oQuantity = $(this).prev('input'),
 		num = oQuantity.val();
 	$(oQuantity).val(++num);
+	console.log($(this).prev('input').val());
 	$(oQuantity).prev().css({
-		'color': '#8e8888',
-		'cursor': 'pointer'
+		'color': '#8e8888'
 	});
 });
 // 数量减1
-$('.minus').click(function() {
+$('body').on('click','.minus',function() {
 	var oQuantity = $(this).next('input'),
 		num = oQuantity.val();
 	if (num > 2) {
@@ -55,13 +55,11 @@ $('.minus').click(function() {
 	} else if (num > 1) {
 		$(oQuantity).val(--num);
 		$(this).css({
-			'color': '#d8d4d4',
-			'cursor': 'default'
+			'color': '#d8d4d4'
 		});
 	} else {
 		$(this).css({
-			'color': '#d8d4d4',
-			'cursor': 'default'
+			'color': '#d8d4d4'
 		});
 	}
 });
@@ -71,20 +69,17 @@ $('.quantity-div input').keyup(function() {
 	if ((typeof num == "number") && num >= 1) {
 		if (num > 1) {
 			$(this).prev().css({
-				'color': '#8e8888',
-				'cursor': 'pointer'
+				'color': '#8e8888'
 			});
 		} else if (num == 1) {
 			$(this).prev().css({
-				'color': '#d8d4d4',
-				'cursor': 'default'
+				'color': '#d8d4d4'
 			});
 		}
 		$(this).val(num);
 	} else {
 		$(this).prev().css({
-			'color': '#d8d4d4',
-			'cursor': 'default'
+			'color': '#d8d4d4'
 		});
 		$(this).val(1);
 	}

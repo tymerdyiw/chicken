@@ -1,3 +1,4 @@
+@charset "utf-8";
 .slideBox {
   position: relative;
 }
@@ -782,4 +783,42 @@
   border-radius: 50%;
   text-align: center;
   color: #fff;
+}
+.cart-list {
+  padding-bottom: 0 !important;
+}
+.cart-list #quantity {
+  height: 2.5rem;
+}
+.cart-checkbox {
+  width: 1.8rem;
+  margin-right: 0.5rem;
+}
+.cart-checkbox input[type=checkbox] {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.cart-list:last-child {
+  padding-bottom: 1rem !important;
+}
+.many-egg #quantity {
+  height: 2.5rem;
+}
+.bottom-cart2 {
+  bottom: 5rem;
+}
+.bottom-cart2 .cart-checkbox {
+  width: 7rem;
+}
+.bottom-cart2 .cart-checkbox input {
+  margin-right: 0.5rem;
+  position: relative;
+  bottom: -1px;
+}
+.bottom-cart2 .go-buy-btn {
+  width: 10rem;
+  height: 4.8rem;
+  line-height: 4.8rem;
+  text-align: center;
+  background: #f7b733;
 }
