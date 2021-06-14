@@ -12,3 +12,4 @@ order.html		3-1所有订单.psd
 payno.html		3-2待付款.psd
 personInfo.html		3-0个人信息.psd
 cart.html 		购物车
+companyIntro.html 	企业信息

@@ -67,7 +67,6 @@
   transform: translate(-50%);
 }
 .buy-quantity {
-  overflow: hidden;
   border: 1px solid #DDDDDD;
   text-align: center;
   float: left;
@@ -821,4 +820,49 @@
   line-height: 4.8rem;
   text-align: center;
   background: #f7b733;
+}
+.intro1 .detail1-top img {
+  width: 2.1rem;
+  vertical-align: -3px;
+}
+.intro1 .introl-ul {
+  padding: 1rem 0;
+}
+.intro1 .introl-ul li {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  line-height: 3rem;
+}
+.intro1 .introl-ul li img {
+  height: 1.6rem;
+  vertical-align: -3px;
+  margin-right: 0.4rem;
+}
+.intro2 .img3 {
+  padding-bottom: 1.5rem;
+}
+.intro2 .img3 img {
+  width: 100%;
+}
+.intro2 .img3 > div:not(:last-child) img {
+  padding-right: 1rem;
+}
+.intro3 .help-ul li {
+  border-bottom: 1px solid #DDDDDD;
+  line-height: 4.4rem;
+}
+.intro3 .help-ul li a {
+  display: block;
+}
+.intro3 .index3-btns {
+  height: 6.2rem;
+}
+.intro5 {
+  padding: 0 5.5rem 2rem;
+}
+.intro5 .qr-code {
+  width: 100%;
+}
+.intro6 li:nth-child(odd) {
+  margin: 0 0.5rem;
 }
